@@ -190,13 +190,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp LA(F4)  &kp LEFT_SHIFT  &kp UP_ARROW  &kp RCTRL  &none                            &kp N7            &kp N8           &kp N9            &kp MINUS  &kp SLASH
-&none       &kp LEFT        &kp DOWN      &kp RIGHT  &none                            &kp NUMBER_4      &kp N5           &kp NUMBER_6      &kp PLUS   &kp ASTERISK
-&none       &none           &none         &none      &none                            &kp NUMBER_1      &kp NUMBER_2     &kp NUMBER_3      &kp ENTER  &none
-&trans      &trans          &trans        &trans     &trans  &trans  &gui_left_arrow  &gui_right_arrow  &kp N0           &kp PERIOD        &trans     &trans
+&kp LA(F4)  &kp LEFT_SHIFT  &kp UP_ARROW  &kp RCTRL  &none                            &kp KP_NUMLOCK    &kp N7           &kp N8            &kp N9        &kp MINUS
+&none       &kp LEFT        &kp DOWN      &kp RIGHT  &none                            &kp SLASH         &kp NUMBER_4     &kp N5            &kp NUMBER_6  &kp PLUS
+&none       &none           &none         &none      &none                            &kp ASTERISK      &kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3  &kp E
+&trans      &trans          &trans        &trans     &trans  &trans  &gui_left_arrow  &gui_right_arrow  &kp N0           &kp PERIOD        &trans        &kp ENTER
             &trans          &trans        &trans     &trans  &trans  &gui_up_arrow    &gui_left_arrow   &gui_down_arrow  &gui_right_arrow  &trans
-&trans      &trans          &trans                                                                                       &trans            &trans     &trans
-&trans      &trans          &trans        &trans     &trans                           &trans            &trans           &trans            &trans     &trans
+&trans      &trans          &trans                                                                                       &trans            &trans        &trans
+&trans      &trans          &trans        &trans     &trans                           &trans            &trans           &trans            &trans        &trans
             >;
         };
 
@@ -227,13 +227,13 @@
 
         layer_5 {
             bindings = <
-&trans  &trans         &trans  &trans  &trans                              &trans  &kp LEFT_BRACE  &kp PIPE  &kp RIGHT_BRACE  &trans
-&trans  &kp LG(LS(S))  &trans  &trans  &kp LC(LA(DELETE))                  &trans  &mkp MB1        &mkp MB2  &trans           &trans
-&trans  &trans         &trans  &trans  &kp LS(LC(ESCAPE))                  &trans  &trans          &trans    &trans           &trans
-&trans  &trans         &trans  &trans  &trans              &trans  &trans  &trans  &trans          &trans    &trans           &trans
-        &trans         &trans  &trans  &trans              &trans  &trans  &trans  &trans          &trans    &trans
-&trans  &trans         &trans                                                                      &trans    &trans           &trans
-&trans  &trans         &trans  &trans  &trans                              &trans  &trans          &trans    &trans           &trans
+&trans  &trans         &trans  &trans  &trans                                          &trans               &kp LEFT_BRACE  &kp PIPE  &kp RIGHT_BRACE  &trans
+&trans  &kp LG(LS(S))  &trans  &trans  &kp LC(LA(DELETE))                              &trans               &mkp MB1        &mkp MB2  &trans           &trans
+&trans  &trans         &trans  &trans  &kp LS(LC(ESCAPE))                              &lt 5 LG(UP_ARROW)   &trans          &trans    &trans           &trans
+&trans  &trans         &trans  &trans  &trans              &trans  &lt 5 LS(LG(LEFT))  &lt 5 LG(LS(RIGHT))  &trans          &trans    &trans           &trans
+        &trans         &trans  &trans  &trans              &trans  &trans              &trans               &trans          &trans    &trans
+&trans  &trans         &trans                                                                                               &trans    &trans           &trans
+&trans  &trans         &trans  &trans  &trans                                          &trans               &trans          &trans    &trans           &trans
             >;
         };
     };
