@@ -105,8 +105,8 @@
         };
     };
 
-    macros /*{
-        to_scroll_layer: to_scroll_layer {
+    macros {
+      /*  to_scroll_layer: to_scroll_layer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
