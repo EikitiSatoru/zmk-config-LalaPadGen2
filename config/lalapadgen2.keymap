@@ -105,7 +105,7 @@
         };
     };
 
-    macros {
+    macros /*{
         to_scroll_layer: to_scroll_layer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -117,7 +117,7 @@
                 <&macro_release>,
                 <&mo SCROLL>;
         };
-
+*/
         gui_down_arrow: gui_down_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
