@@ -185,26 +185,26 @@
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp LS(NUMBER_1)  &kp AT             &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                            &kp LS(NUMBER_6)   &kp LS(N8)     &kp LS(N7)        &kp LS(N9)        &kp LEFT_BRACKET
-&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4      &kp N5                                &kp NUMBER_6       &kp N7         &kp N8            &kp N9            &mt RIGHT_SHIFT N0
-&kp LC(Z)         &kp LC(X)          &kp LC(C)         &kp LC(V)         &kp LG(V)                             &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LESS_THAN     &kp GREATER_THAN  &kp INTERNATIONAL_1
-&trans            &trans             &trans            &trans            &trans      &trans  &kp LG(LEFT)      &kp LG(RIGHT)      &trans         &kp KP_NUMBER_0   &kp KP_DOT        &kp RIGHT_CONTROL
-                  &trans             &trans            &trans            &trans      &trans  &kp LG(UP_ARROW)  &kp LG(LEFT)       &kp LG(DOWN)   &kp LG(RIGHT)     &trans
-&trans            &trans             &trans                                                                                                      &trans            &trans            &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans            &trans            &trans                                &kp LG(LEFT)       &kp LG(RIGHT)  &kp LG(UP_ARROW)  &kp LG(DOWN)      &trans
+&kp LS(NUMBER_1)  &kp AT             &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                            &kp LS(NUMBER_6)   &kp LS(N8)        &kp LS(N7)       &kp LS(N9)        &kp LEFT_BRACKET
+&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4      &kp N5                                &kp NUMBER_6       &kp N7            &kp N8           &kp N9            &mt RIGHT_SHIFT N0
+&kp LC(Z)         &kp LC(X)          &kp LC(C)         &kp LC(V)         &kp LG(V)                             &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LESS_THAN    &kp GREATER_THAN  &kp INTERNATIONAL_1
+&trans            &trans             &trans            &trans            &trans      &trans  &kp LG(LEFT)      &kp LG(RIGHT)      &trans            &kp KP_NUMBER_0  &kp KP_DOT        &kp RIGHT_CONTROL
+                  &trans             &trans            &trans            &trans      &trans  &kp LG(UP_ARROW)  &kp LG(LEFT)       &kp LG(DOWN)      &kp LG(RIGHT)    &trans
+&trans            &trans             &trans                                                                                                         &trans           &trans            &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans            &trans            &trans                                &gui_left_arrow    &gui_right_arrow  &gui_up_arrow    &gui_down_arrow   &trans
             >;
         };
 
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp LA(F4)  &kp LEFT_SHIFT  &kp UP_ARROW  &kp RCTRL  &none                            &kp KP_NUMLOCK     &kp N7           &kp N8            &kp N9        &kp MINUS
-&none       &kp LEFT        &kp DOWN      &kp RIGHT  &none                            &kp SLASH          &kp NUMBER_4     &kp N5            &kp NUMBER_6  &kp PLUS
-&none       &none           &none         &none      &none                            &kp DOUBLE_QUOTES  &kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3  &kp E
-&trans      &trans          &trans        &trans     &trans  &trans  &gui_left_arrow  &gui_right_arrow   &kp N0           &kp PERIOD        &trans        &kp ENTER
-            &trans          &trans        &trans     &trans  &trans  &gui_up_arrow    &gui_left_arrow    &gui_down_arrow  &gui_right_arrow  &trans
-&trans      &trans          &trans                                                                                        &trans            &trans        &trans
-&trans      &trans          &trans        &trans     &trans                           &trans             &trans           &trans            &trans        &trans
+&kp LA(F4)  &kp LEFT_SHIFT  &kp UP_ARROW  &kp RCTRL  &none                            &kp KP_NUMLOCK     &kp N7           &kp N8               &kp N9                 &kp MINUS
+&none       &kp LEFT        &kp DOWN      &kp RIGHT  &none                            &kp SLASH          &kp NUMBER_4     &kp N5               &kp NUMBER_6           &kp PLUS
+&none       &none           &none         &none      &none                            &kp DOUBLE_QUOTES  &kp NUMBER_1     &kp NUMBER_2         &kp NUMBER_3           &kp E
+&trans      &trans          &trans        &trans     &trans  &trans  &gui_left_arrow  &gui_right_arrow   &kp N0           &kp PERIOD           &trans                 &kp ENTER
+            &trans          &trans        &trans     &trans  &trans  &gui_up_arrow    &gui_left_arrow    &gui_down_arrow  &gui_right_arrow     &trans
+&trans      &trans          &trans                                                                                        &trans               &trans                 &trans
+&trans      &trans          &trans        &trans     &trans                           &trans             &trans           &kp LC(K_SCROLL_UP)  &kp LC(K_SCROLL_DOWN)  &trans
             >;
         };
 
@@ -235,13 +235,13 @@
 
         layer_5 {
             bindings = <
-&trans  &trans         &trans  &trans  &trans                                          &trans               &kp RIGHT_BRACE  &kp LS(INTERNATIONAL_3)  &kp PIPE  &trans
-&trans  &kp LG(LS(S))  &trans  &trans  &kp LC(LA(DELETE))                              &trans               &mkp MB1         &mkp MB2                 &trans    &trans
-&trans  &trans         &trans  &trans  &kp LS(LC(ESCAPE))                              &lt 5 LG(UP_ARROW)   &trans           &trans                   &trans    &trans
-&trans  &trans         &trans  &trans  &trans              &trans  &lt 5 LS(LG(LEFT))  &lt 5 LG(LS(RIGHT))  &trans           &trans                   &trans    &trans
+&trans  &trans         &trans  &trans  &trans                                          &trans               &kp RIGHT_BRACE  &kp LS(INTERNATIONAL_3)  &kp PIPE           &trans
+&trans  &kp LG(LS(S))  &trans  &trans  &kp LC(LA(DELETE))                              &trans               &mkp MB1         &mkp MB2                 &trans             &trans
+&trans  &trans         &trans  &trans  &kp LS(LC(ESCAPE))                              &lt 5 LG(UP_ARROW)   &trans           &trans                   &trans             &trans
+&trans  &trans         &trans  &trans  &trans              &trans  &lt 5 LS(LG(LEFT))  &lt 5 LG(LS(RIGHT))  &trans           &trans                   &trans             &trans
         &trans         &trans  &trans  &trans              &trans  &trans              &trans               &trans           &trans                   &trans
-&trans  &trans         &trans                                                                                                &trans                   &trans    &trans
-&trans  &trans         &trans  &trans  &trans                                          &trans               &trans           &trans                   &trans    &trans
+&trans  &trans         &trans                                                                                                &kp K_MUTE               &trans             &trans
+&trans  &trans         &trans  &trans  &trans                                          &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp C_VOLUME_UP          &kp C_VOLUME_DOWN  &trans
             >;
         };
     };
